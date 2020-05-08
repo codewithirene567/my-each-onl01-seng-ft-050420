@@ -6,6 +6,7 @@ def my_each(array)
   i = i + 1
 end
 my_each do 
+  puts "Everything is good"
 else
   puts "No block is here!"
 end
