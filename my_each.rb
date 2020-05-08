@@ -5,7 +5,7 @@ def my_each(array)
   yield(array[i])
   i = i + 1
 end
-
+my_each do 
 else
   puts "No block is here!"
 end
