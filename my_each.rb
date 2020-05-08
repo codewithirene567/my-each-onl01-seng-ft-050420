@@ -7,6 +7,8 @@ def my_each(array)
 end
 my_each do 
   puts "Everything is good"
+end
+
 else
   puts "No block is here!"
 end
